@@ -189,7 +189,7 @@ span {
 /******************************* Third page *******************************/
 
 .third {
-    height: 165vh;
+    height: 175vh;
 }
 
 .menu {
@@ -357,6 +357,71 @@ outline: none;
 }
 
   /******************************* Fourth page *******************************/
-  .fourth {
+  #fourth {
     height: 100vh;
+    padding-top: 60px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
   }
+
+.make h1{
+    font-weight: 600;
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+}
+
+.make {
+    text-align: center;
+}
+
+.make p {
+    text-align: center;
+}
+
+.formsec {
+    font-family: 'Playfair Display', serif;
+    margin:0 auto;
+    width: 500px;
+}
+
+input, button  {
+    font-size: 14px;
+    padding: 1rem 1rem;
+    width: 500px;
+    margin: 5px;
+    display: block;
+   } 
+
+button{
+    border-radius: 20px;
+}
+
+/******************************* Fifth page *******************************/
+.fifth {
+    height: 100%;
+}
+
+/******************************* Footer page *******************************/
+footer {
+    height: 50vh;
+    background-color: black;
+    color: rgb(238, 238, 238);
+    height: auto;
+}
+
+.text-warning {
+    padding: 5%;
+}
+
+ .credits {
+    margin-left: 16%;
+ }
+
+
+ /* This part below is for media queries */
+
+ /* Chrome */
+
+ @media screen and (max-width: 1200px) 

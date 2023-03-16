@@ -422,6 +422,7 @@ footer {
 
  /* This part below is for media queries */
 
- /* Chrome */
-
- @media screen and (max-width: 1200px) 
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+    
+}

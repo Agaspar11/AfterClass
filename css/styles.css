@@ -232,9 +232,9 @@ img {
     flex-direction: row;
     align-items: center;
     transition: border 100ms ease-out, border-radius 100ms ease-out;
-    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
 }
 
 .image-container img {
@@ -242,7 +242,7 @@ img {
 }
 
 .image-container:hover {
-    border: 10px solid #f5a637;
+    border: 2px solid #f5a637;
    border-radius: 20px;
 }
   
@@ -365,6 +365,14 @@ outline: none;
     align-items: center;
 }
 
+.borderf {
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
 .make h1{
     font-weight: 600;
     font-size: 30px;
@@ -393,10 +401,6 @@ input, button  {
     margin: 5px;
     display: block;
    } 
-
-button{
-    border-radius: 20px;
-}
 
 /******************************* Fifth page *******************************/
 .fifth {
@@ -444,6 +448,10 @@ footer .row {
 @media screen and (max-width: 1230px) {
     .third {
         height: 290vh;
+    }
+
+    footer {
+        padding: 30px;
     }
 }
 
